@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta chlogo.pngarset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="css/app.css" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+  </head>
+  <body>
+    <header>
+      <div class="w-full h-screen bg-login">
+        <nav class="h-24 flex items-center justify-between">
+          <div>
+            <ul class="flex items-center justify-center gap-4">
+              <li>
+                <a href="index.html">
+                  <img src="assets/logo.png" alt="" class="w-28" />
+                </a>
+              </li>
+              <li>
+                <a href="function.html" class="text-white font-medium text-xl">
+                  Function
+                </a>
+              </li>
+              <li>
+                <a href="partners.html" class="text-white font-medium text-xl">
+                  Partners
+                </a>
+              </li>
+              <li>
+                <a href="" class="text-white font-medium text-xl"> Shop </a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <ul class="flex items-center justify-center gap-2">
+              <li>
+                <a href="login.html" class="text-white font-medium text-xl"
+                  >Log In</a
+                >
+              </li>
+              <li>
+                <a href="" class="text-white font-medium text-xl"
+                  ><img src="assets/bag.png" alt="" class="w-16"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div
+          class="flex flex-col items-start justify-center lg:justify-start max-w-md mx-auto bg-black opacity-80 rounded-3xl p-8"
+        >
+          <form
+            action=""
+            class="flex flex-col items-start justify-start w-full gap-2 border-b-4 border-b-white pb-8"
+          >
+            <label for="email" class="text-white text-lg">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="bg-white rounded-lg w-full"
+            />
+
+            <label for="password" class="text-white text-lg">Password</label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              class="bg-white rounded-lg w-full"
+            />
+
+            <span class="flex items-center justify-end w-full">
+              <p class="text-white text-lg">Forget Password?</p>
+            </span>
+
+            <span class="flex items-center justify-center w-full">
+              <button class="text-xl font-bold text-white">Sign In ></button>
+            </span>
+          </form>
+          <div class="flex flex-col items-center justify-center w-full pt-8">
+            <p class="text-xl text-white font-medium">Dont have an account?</p>
+            <a href="" class="text-xl text-white font-bold">Join Us Now</a>
+          </div>
+          <div class="flex items-center justify-center w-full m-2">
+            <p class="text-xl text-white font-medium">OR</p>
+          </div>
+          <div class="flex w-full items-center justify-center gap-4">
+            <span>
+              <img src="assets/facebook.png" alt="" />
+            </span>
+            <span>
+              <img src="assets/google.png" alt="" />
+            </span>
+          </div>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>

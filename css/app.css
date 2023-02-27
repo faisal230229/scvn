@@ -1,0 +1,142 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: fatura;
+  src: url(../fonts/Futura\ Book\ font.ttf);
+}
+
+@font-face {
+  font-family: fatura-heavy;
+  src: url(../fonts/Futura\ Book\ font.ttf);
+}
+
+body {
+  font-family: "fatura";
+}
+
+.bg-home1 {
+  background: url("/assets/homeimage1.jpg") no-repeat;
+  background-position: center;
+  object-position: center;
+  object-fit: cover;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.bg-home2 {
+  background: url("/assets/homeimage2.png") no-repeat;
+  background-position: center;
+  object-position: center;
+  object-fit: cover;
+  background-size: cover;
+  width: 100%;
+  /* height: 100vh; */
+}
+
+.bg-home3 {
+  background: url("/assets/homeimage3_Artboard\ 2.png") no-repeat;
+  background-position: center;
+  object-position: center;
+  object-fit: cover;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.bg-home4 {
+  background: url("/assets/homeimage4_Artboard\ 2.png") no-repeat;
+  background-position: center;
+  object-position: center;
+  object-fit: cover;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.bg-function1 {
+  background: url("/assets/functionsimage1.jpg") no-repeat;
+  background-position: bottom;
+  object-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 200vh;
+}
+
+.bg-function2 {
+  background: url("/assets/functionsimage2.jpg") no-repeat;
+  background-position: center;
+  object-position: center;
+  object-fit: cover;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.bg-function3 {
+  background: url("/assets/functionsimage3.jpg") no-repeat;
+  background-position: 0 55%;
+  object-position: center;
+  object-fit: cover;
+  background-size: cover;
+  width: 100%;
+  height: 200vh;
+}
+
+.bg-partners1 {
+  background: url("/assets/partners1.png") no-repeat;
+  background-position: center;
+  object-position: center;
+  object-fit: cover;
+  background-size: cover;
+  width: 100%;
+  height: 200vh;
+}
+
+.bg-partners2 {
+  background: url("/assets/partners2.png") no-repeat;
+  background-position: center;
+  object-position: center;
+  object-fit: cover;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.bg-partners3 {
+  background: url("/assets/partners3.png") no-repeat;
+  background-position: center;
+  object-position: center;
+  object-fit: cover;
+  background-size: cover;
+  width: 100%;
+  /* height: 100vh; */
+}
+
+.bg-login {
+  background: url("/assets/homeimage1.jpg") no-repeat;
+  background-position: center;
+  object-position: center;
+  object-fit: cover;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.home-gradient {
+  background: linear-gradient(180deg, black, transparent, black);
+}
+
+.function-gradient {
+  background: linear-gradient(45deg, black, transparent);
+}
+
+.function2-gradient {
+  background: linear-gradient(180deg, black, transparent, black);
+}
+
+.partners-gradient {
+  background: linear-gradient(180deg, transparent, black, black);
+}
