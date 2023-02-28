@@ -27,7 +27,7 @@ body {
 }
 
 .bg-home2 {
-  background: url("/assets/homeimage2.png") no-repeat;
+  background: url("/assets/homeimage2.jpg") no-repeat;
   background-position: center;
   object-position: center;
   object-fit: cover;
@@ -37,7 +37,7 @@ body {
 }
 
 .bg-home3 {
-  background: url("/assets/homeimage3_Artboard\ 2.png") no-repeat;
+  background: url("/assets/homeimage3.jpg") no-repeat;
   background-position: center;
   object-position: center;
   object-fit: cover;
@@ -47,7 +47,7 @@ body {
 }
 
 .bg-home4 {
-  background: url("/assets/homeimage4_Artboard\ 2.png") no-repeat;
+  background: url("/assets/homeimage4.jpg") no-repeat;
   background-position: center;
   object-position: center;
   object-fit: cover;
