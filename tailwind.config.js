@@ -6,6 +6,9 @@ module.exports = {
     fontFamily: {
       "fatura-heavy": ["fatura-heavy"],
     },
+    animation: {
+      "buy-move": "buymove 1s ease-in-out infinite",
+    },
   },
   plugins: [],
 };
