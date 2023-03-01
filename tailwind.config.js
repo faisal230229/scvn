@@ -3,6 +3,9 @@ module.exports = {
   content: ["*"],
   theme: {
     extend: {},
+    container: {
+      padding: "1rem",
+    },
     fontFamily: {
       "fatura-heavy": ["fatura-heavy"],
     },
