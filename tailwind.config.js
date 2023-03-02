@@ -7,6 +7,7 @@ module.exports = {
       padding: "1rem",
     },
     fontFamily: {
+      fatura: ["fatura"],
       "fatura-heavy": ["fatura-heavy"],
     },
     animation: {
