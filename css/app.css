@@ -4,12 +4,12 @@
 
 @font-face {
   font-family: fatura;
-  src: url(../fonts/Futura\ Book\ font.ttf);
+  src: url(../fonts/Futura_Book_font.ttf);
 }
 
 @font-face {
   font-family: fatura-heavy;
-  src: url(../fonts/Futura\ Book\ font.ttf);
+  src: url(../fonts/Futura_Heavy_font.ttf);
 }
 
 body {
