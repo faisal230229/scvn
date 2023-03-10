@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta chlogo.pngarset="UTF-8" />
+    <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
+    <title>Document</title>
     <link rel="stylesheet" href="css/app.css" />
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.css"
       rel="stylesheet"
     />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
   </head>
   <body style="font-family: 'fatura'">
-    <header class="bg-home1">
-      <div class="w-full h-full relative container mx-auto">
-        <nav class="px-2 sm:px-4 py-2.5">
+    <header class="bg-partners1 h-max 2xl:h-[100vh]">
+      <div class="h-full relative">
+        <nav class="px-2 sm:px-4 py-2.5 container mx-auto">
           <div class="flex flex-wrap items-center md:block justify-between">
             <span class="flex items-center justify-center float-left">
               <a href="index.html">
@@ -39,7 +40,7 @@
               <button
                 data-collapse-toggle="navbar-cta"
                 type="button"
-                class="inline-flex items-center p-2 text-sm text-white rounded-lg md:hidden hover:outline-none hover:ring-2 hover:ring-white"
+                class="inline-flex items-center p-2 text-sm text-white rounded-lg md:hidden focus:outline-none focus:ring-2 focus:ring-white"
                 aria-controls="navbar-cta"
                 aria-expanded="false"
               >
@@ -91,278 +92,177 @@
             </div>
           </div>
         </nav>
-        <div class="absolute left-8 top-1/2 -translate-y-1/2">
-          <h2 class="text-4xl font-medium text-white">
-            Exchanging information <br />
-            with one scan.
-          </h2>
-        </div>
-      </div>
-    </header>
-
-    <section class="bg-home2">
-      <div class="text-center py-20 container mx-auto">
-        <h2 class="text-3xl lg:text-5xl font-bold text-white">
-          A Digital NFC business card
-        </h2>
-        <h5 class="text-lg lg:text-xl text-white font-medium">
-          Made of premium, durable metal materials.
-        </h5>
-        <div class="grid grid-cols-3 gap-4 lg:gap-8 mt-10 lg:mt-20 lg:px-20">
-          <div class="flex items-center flex-col justify-center gap-2 lg:gap-4">
-            <span>
-              <img src="assets/gray card.png" alt="" />
-            </span>
-            <h2 class="text-2xl lg:text-4xl text-white font-semibold">
-              Silver
-            </h2>
-            <h5 class="text-white text-xl lg:text-3xl">SubText Here</h5>
-          </div>
-          <div class="flex items-center flex-col justify-center gap-2 lg:gap-4">
-            <span>
-              <img src="assets/gold card.png" alt="" />
-            </span>
-            <h2 class="text-2xl lg:text-4xl text-white font-semibold">Gold</h2>
-            <h5 class="text-white text-xl lg:text-3xl">SubText Here</h5>
-          </div>
-          <div class="flex items-center flex-col justify-center gap-2 lg:gap-4">
-            <span>
-              <img src="assets/black card.png" alt="" />
-            </span>
-            <h2 class="text-2xl lg:text-4xl text-white font-semibold">Black</h2>
-            <h5 class="text-white text-xl lg:text-3xl">SubText Here</h5>
-          </div>
-        </div>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-10 lg:mt-20">
-          <div class="w-full relative overflow-hidden group">
-            <span class="w-full">
-              <img
-                src="assets/compatible.png"
-                alt=""
-                class="w-full object-cover"
-              />
-            </span>
-            <div
-              class="w-full absolute left-0 transition-all ease-in-out duration-700 group-hover:top-0 group-hover:visible -top-full invisible"
-            >
-              <span class="w-full">
-                <img
-                  src="assets/compatible_faded.png"
-                  alt=""
-                  class="w-full object-cover"
-                />
-              </span>
-            </div>
-            <div
-              class="w-full h-full flex items-center justify-center p-4 absolute left-0 transition-all ease-in-out duration-700 group-hover:top-0 group-hover:visible -top-full invisible"
-            >
-              <p
-                class="text-white font-medium text-base lg:text-xl text-center"
-              >
-                compatible with any recent smartphone with NFC technology.
-                Phones without NFC technology can simply scan the QR code on the
-                back of the card
-              </p>
-            </div>
-          </div>
-          <div class="w-full relative overflow-hidden group">
-            <span class="w-full">
-              <img
-                src="assets/contactless.png"
-                alt=""
-                class="w-full h-full object-cover"
-              />
-            </span>
-            <div
-              class="w-full absolute left-0 transition-all ease-in-out duration-700 group-hover:top-0 group-hover:visible -top-full invisible"
-            >
-              <span class="w-full">
-                <img
-                  src="assets/contactless_faded.png"
-                  alt=""
-                  class="w-full h-full object-cover"
-                />
-              </span>
-            </div>
-            <div
-              class="w-full h-full flex items-center justify-center p-4 absolute left-0 transition-all ease-in-out duration-700 group-hover:top-0 group-hover:visible -top-full invisible"
-            >
-              <p
-                class="text-white font-medium text-base lg:text-xl text-center"
-              >
-                a new & digital way to exchange information. Tap the card on
-                your phone and all your information is transferred.
-              </p>
-            </div>
-          </div>
-          <div class="w-full relative overflow-hidden group">
-            <span class="w-full">
-              <img src="assets/simple.png" alt="" class="w-full object-cover" />
-            </span>
-            <div
-              class="w-full absolute left-0 transition-all ease-in-out duration-700 group-hover:top-0 group-hover:visible -top-full invisible"
-            >
-              <span class="w-full">
-                <img
-                  src="assets/simple_faded.png"
-                  alt=""
-                  class="w-full object-cover"
-                />
-              </span>
-            </div>
-            <div
-              class="w-full h-full flex items-center justify-center p-4 absolute left-0 transition-all ease-in-out duration-700 group-hover:top-0 group-hover:visible -top-full invisible"
-            >
-              <p
-                class="text-white font-medium text-base lg:text-xl text-center"
-              >
-                compatible with any recent smartphone with NFC technology.
-                Phones without NFC technology can simply scan the QR code on the
-                back of the card
-              </p>
-            </div>
-          </div>
-          <div class="w-full relative overflow-hidden group">
-            <span class="w-full">
-              <img
-                src="assets/sustainable.png"
-                alt=""
-                class="w-full object-cover"
-              />
-            </span>
-            <div
-              class="w-full absolute left-0 transition-all ease-in-out duration-700 group-hover:top-0 group-hover:visible -top-full invisible"
-            >
-              <span class="w-full">
-                <img
-                  src="assets/sustainable_faded.png"
-                  alt=""
-                  class="w-full object-cover"
-                />
-              </span>
-            </div>
-            <div
-              class="w-full h-full flex items-center justify-center p-4 absolute left-0 transition-all ease-in-out duration-700 group-hover:top-0 group-hover:visible -top-full invisible"
-            >
-              <p
-                class="text-white font-medium text-base lg:text-xl text-center"
-              >
-                compatible with any recent smartphone with NFC technology.
-                Phones without NFC technology can simply scan the QR code on the
-                back of the card
-              </p>
-            </div>
-          </div>
-          <div class="w-full relative overflow-hidden group">
-            <span class="w-full">
-              <img
-                src="assets/unmatched.png"
-                alt=""
-                class="w-full object-cover"
-              />
-            </span>
-            <div
-              class="w-full absolute left-0 transition-all ease-in-out duration-700 group-hover:top-0 group-hover:visible -top-full invisible"
-            >
-              <span class="w-full">
-                <img
-                  src="assets/unmatched_faded.png"
-                  alt=""
-                  class="w-full object-cover"
-                />
-              </span>
-            </div>
-            <div
-              class="w-full h-full flex items-center justify-center p-4 absolute left-0 transition-all ease-in-out duration-700 group-hover:top-0 group-hover:visible -top-full invisible"
-            >
-              <p
-                class="text-white font-medium text-base lg:text-xl text-center"
-              >
-                compatible with any recent smartphone with NFC technology.
-                Phones without NFC technology can simply scan the QR code on the
-                back of the card
-              </p>
-            </div>
-          </div>
-          <div class="w-full relative overflow-hidden group">
-            <span class="w-full">
-              <img
-                src="assets/interface.png"
-                alt=""
-                class="w-full object-cover"
-              />
-            </span>
-            <div
-              class="w-full absolute left-0 transition-all ease-in-out duration-700 group-hover:top-0 group-hover:visible -top-full invisible"
-            >
-              <span class="w-full">
-                <img
-                  src="assets/interface_faded.png"
-                  alt=""
-                  class="w-full object-cover"
-                />
-              </span>
-            </div>
-            <div
-              class="w-full h-full flex items-center justify-center p-4 absolute left-0 transition-all ease-in-out duration-700 group-hover:top-0 group-hover:visible -top-full invisible"
-            >
-              <p
-                class="text-white font-medium text-base lg:text-xl text-center"
-              >
-                compatible with any recent smartphone with NFC technology.
-                Phones without NFC technology can simply scan the QR code on the
-                back of the card
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="bg-home3">
-      <div
-        class="flex flex-col items-center justify-center h-full w-full container mx-auto"
-      >
-        <h1
-          class="text-[10rem] lg:text-[40rem] font-black !font-fatura opacity-40 leading-[0.8] lg:-ml-80"
-        >
-          88%
-        </h1>
-        <p class="text-white text-2xl self-end lg:text-4xl lg:mr-48">
-          of paper business cards are <br />
-          thrown away in the first week.
-        </p>
-      </div>
-    </section>
-
-    <section class="bg-home4">
-      <div
-        class="flex w-full h-full flex-col items-center gap-12 justify-end home-gradient"
-      >
-        <div class="flex flex-col items-center justify-center gap-4">
-          <h2 class="text-center text-4xl font-bold text-white">
-            Get Ahead of Your Competition
-          </h2>
-          <h5 class="text-center text-2xl text-white">
-            Take your business to the next level, a plain card won't cut it
-            anymore.
-          </h5>
-        </div>
         <div
-          class="flex flex-col items-center justify-center gap-4 w-full container mx-auto py-2"
+          class="flex flex-col items-center justify-start gap-4 w-full container mx-auto"
         >
-          <div class="flex items-center justify-between w-full">
-            <span>
-              <a href="">
-                <img src="assets/logo.png" alt="" class="w-36" />
-              </a>
+          <h4 class="text-3xl font-semibold text-center text-white">Billing</h4>
+          <hr class="w-1/2 lg:w-1/4 h-1 bg-white rounded-xl" />
+          <form
+            action=""
+            class="flex flex-col items-center justify-center gap-2 w-full max-w-2xl"
+          >
+            <div
+              class="flex flex-col lg:flex-row items-center justify-center gap-4 w-full"
+            >
+              <span class="flex flex-1 flex-col items-start w-full">
+                <label for="" class="text-white text-xl font-medium ml-4"
+                  >First Name</label
+                >
+                <input
+                  type="text"
+                  class="text-black text-lg font-medium rounded-xl focus:ring-yellow-400 focus:border-yellow-400 focus:ring-2 w-full"
+                />
+              </span>
+              <span class="flex flex-1 flex-col items-start w-full">
+                <label for="" class="text-white text-xl font-medium ml-4"
+                  >Last Name</label
+                >
+                <input
+                  type="text"
+                  class="text-black text-lg font-medium rounded-xl focus:ring-yellow-400 focus:border-yellow-400 focus:ring-2 w-full"
+                />
+              </span>
+            </div>
+            <div
+              class="flex flex-col lg:flex-row items-center justify-center gap-4 w-full"
+            >
+              <span class="flex flex-1 flex-col items-start w-full">
+                <label for="" class="text-white text-xl font-medium ml-4"
+                  >Country</label
+                >
+                <input
+                  type="text"
+                  class="text-black text-lg font-medium rounded-xl focus:ring-yellow-400 focus:border-yellow-400 focus:ring-2 w-full"
+                />
+              </span>
+              <span class="flex flex-1 items-center justify-between gap-10">
+                <span class="flex flex-col">
+                  <label for="" class="text-white text-xl font-medium ml-4"
+                    >State</label
+                  >
+                  <input
+                    type="text"
+                    class="text-black text-lg font-medium rounded-xl focus:ring-yellow-400 focus:border-yellow-400 focus:ring-2 w-full"
+                  />
+                </span>
+                <span class="flex flex-col">
+                  <label for="" class="text-white text-xl font-medium ml-4"
+                    >City</label
+                  >
+                  <input
+                    type="text"
+                    class="text-black text-lg font-medium rounded-xl focus:ring-yellow-400 focus:border-yellow-400 focus:ring-2 w-full"
+                  />
+                </span>
+              </span>
+            </div>
+            <div
+              class="flex flex-col lg:flex-row items-center justify-center gap-4 w-full"
+            >
+              <span class="flex flex-1 flex-col items-start w-full">
+                <label for="" class="text-white text-xl font-medium ml-4"
+                  >Postal Code</label
+                >
+                <input
+                  type="text"
+                  class="text-black text-lg font-medium rounded-xl focus:ring-yellow-400 focus:border-yellow-400 focus:ring-2 w-full"
+                />
+              </span>
+              <span class="flex flex-1 flex-col items-start w-full">
+                <label for="" class="text-white text-xl font-medium ml-4"
+                  >Street Address</label
+                >
+                <input
+                  type="text"
+                  class="text-black text-lg font-medium rounded-xl focus:ring-yellow-400 focus:border-yellow-400 focus:ring-2 w-full"
+                />
+              </span>
+            </div>
+            <div
+              class="flex flex-col lg:flex-row items-center justify-center gap-4 w-full"
+            >
+              <span class="flex flex-1 flex-col items-start w-full">
+                <label for="" class="text-white text-xl font-medium ml-4"
+                  >Phone Number</label
+                >
+                <input
+                  type="number"
+                  class="text-black text-lg font-medium rounded-xl focus:ring-yellow-400 focus:border-yellow-400 focus:ring-2 w-full"
+                />
+              </span>
+              <span class="flex flex-1 flex-col items-start w-full">
+                <label for="" class="text-white text-xl font-medium ml-4"
+                  >Email Address</label
+                >
+                <input
+                  type="email"
+                  class="text-black text-lg font-medium rounded-xl focus:ring-yellow-400 focus:border-yellow-400 focus:ring-2 w-full"
+                />
+              </span>
+            </div>
+          </form>
+          <h4 class="text-3xl font-semibold text-center text-white">
+            Shipping
+          </h4>
+          <hr class="w-1/2 lg:w-1/4 h-1 bg-white rounded-xl" />
+          <div class="max-w-2xl container mx-auto">
+            <span class="flex items-center justify-between w-full">
+              <p class="text-xl font-medium text-white">Total</p>
+              <p class="text-xl font-medium text-white">$100</p>
             </span>
-            <div class="grid grid-cols-3 gap-4">
+            <span class="flex items-center justify-between w-full">
+              <p class="text-xl font-medium text-white">Shipping</p>
+              <p class="text-xl font-medium text-white">$20</p>
+            </span>
+            <span class="flex items-center justify-between w-full mt-8">
+              <p class="text-xl font-medium text-white">Sub Total</p>
+              <p class="text-xl font-medium text-white">$120</p>
+            </span>
+          </div>
+          <hr class="w-1/2 lg:w-1/4 h-1 bg-white rounded-xl" />
+          <span class="flex items-center justify-center my-4 w-full">
+            <button
+              type="button"
+              class="text-white text-2xl font-semibold flex items-center justify-center gap-3"
+            >
+              Checkout
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="28"
+                height="28"
+                class="animate-buy-move"
+                fill="currentColor"
+                class="bi bi-arrow-right"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                />
+              </svg>
+            </button>
+          </span>
+        </div>
+        <div class="partners-gradient mt-20">
+          <div
+            class="flex flex-col lg:flex-row gap-4 items-center justify-between w-full container mx-auto"
+          >
+            <span class="flex flex-col items-center justify-start">
+              <a href="">
+                <img src="assets/logo.png" alt="" class="w-28" />
+              </a>
+              <p class="w-64 text-white text-base text-justify">
+                Digitize your business with SCVN. We provide digital solutions
+                for enterprises to facilitate and streamline their processes.
+                Meaning, less paperwork and outstanding results.
+              </p>
+            </span>
+            <div class="grid grid-cols-3 gap-8">
               <span class="text-white">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
+                  width="30"
+                  height="30"
                   fill="currentColor"
                   class="bi bi-facebook"
                   viewBox="0 0 16 16"
@@ -375,8 +275,8 @@
               <span class="text-white">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
+                  width="30"
+                  height="30"
                   fill="currentColor"
                   class="bi bi-instagram"
                   viewBox="0 0 16 16"
@@ -389,8 +289,8 @@
               <span class="text-white">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
+                  width="30"
+                  height="30"
                   fill="currentColor"
                   class="bi bi-youtube"
                   viewBox="0 0 16 16"
@@ -403,8 +303,8 @@
               <span class="text-white">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
+                  width="30"
+                  height="30"
                   fill="currentColor"
                   class="bi bi-twitter"
                   viewBox="0 0 16 16"
@@ -417,8 +317,8 @@
               <span class="text-white">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
+                  width="30"
+                  height="30"
                   fill="currentColor"
                   class="bi bi-whatsapp"
                   viewBox="0 0 16 16"
@@ -431,8 +331,8 @@
               <span class="text-white">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
+                  width="30"
+                  height="30"
                   fill="currentColor"
                   class="bi bi-linkedin"
                   viewBox="0 0 16 16"
@@ -444,14 +344,15 @@
               </span>
             </div>
           </div>
-          <div class="w-full">
+          <div class="w-full mt-2">
             <p class="text-white text-center text-lg">
               &copy; 2022 SCVN all rights reserved.
             </p>
           </div>
         </div>
       </div>
-    </section>
+    </header>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.js"></script>
   </body>
 </html>
